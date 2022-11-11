@@ -7,10 +7,15 @@
     'license': 'OPL-1',
     'category': "Extra Tools",
     'depends': ['base',
-                'contacts'],
+                'contacts',
+                'sale_commission'],
     'data': [
-        'views/res_partner.xml'
+        'views/res_partner.xml',
+        'views/account_move.xml',
+        'views/account_move_report.xml',
+
     ],
     'installable': True,
     'images': ['static/description/icon.png']
 }
+
